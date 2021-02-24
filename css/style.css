@@ -1,0 +1,31 @@
+/*
+Convención de orden para los estilos:
+1. Posicionamiento (relative, fixxed, absolute)
+2. Box model (modelo de caja, margin, padding, width, heigth)
+3. Tipografía (fuentes, tipo, tamaño etc)
+4. Visuales (sombras, bordes redondeados, etc)
+5. Otros ()
+*/
+/*
+'Inter', sans-serif;
+*/
+:root {
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #201e1c;
+  --black: #282623;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
