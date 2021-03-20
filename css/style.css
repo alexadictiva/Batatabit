@@ -247,3 +247,96 @@ main {
   font-size: 1.2rem;
   line-height: 1.5rem;
 }
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 120px;
+  height: auto;
+  padding: 20px 10px;
+  background: var(--warm-black);
+}
+.producto-detail-patata-logo {
+  position: absolute;
+  top: -10px;
+  left: calc(50% - 20px);
+  width: 48px;
+  height: 25px;
+  background: url("../assets/icons/batata.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.product-detail--tittle {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 50px auto 0;
+  text-align: center;
+}
+.product-detail--tittle h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+
+.product-detail--tittle p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+
+.product-detail--card {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: auto;
+  margin: 15px auto;
+  padding: 15px;
+  background: var(--black);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail--card .clock,
+.product-detail--card .eye,
+.product-detail--card .dolar,
+.product-detail--card .check {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.product-detail--card .clock {
+  background-image: url("../assets/icons/clock.svg");
+}
+.product-detail--card .eye {
+  background-image: url("../assets/icons/eye.svg");
+}
+.product-detail--card .dolar {
+  background-image: url("../assets/icons/dollar-sign.svg");
+}
+
+.product-detail--card .check {
+  background-image: url("../assets/icons/check-circle.svg");
+}
+
+.product--card-tittle {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+.product--card-body {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
