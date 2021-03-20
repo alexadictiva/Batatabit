@@ -10,6 +10,7 @@ Convención de orden para los estilos:
 'Inter', sans-serif;
 */
 :root {
+  scroll-behavior: auto;
   font-size: 62.5%;
   font-family: "DM Sans", sans-serif;
   --bitcoin-orange: #f7931a;
