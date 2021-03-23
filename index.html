@@ -26,17 +26,22 @@
   <body>
     <header>
       <section class="menu">
+        <label for="button-nav" class="button-menu">
+          <span class="span span1"></span>
+          <span class="span span2"></span>
+          <span class="span span3"></span>
+        </label>
+        <input
+          type="checkbox"
+          class="button-nav"
+          name="button-nav"
+          id="button-nav"
+        />
         <nav class="nav-container">
-          <label for="button-nav" class="button-menu">
-            <span class="span span1"></span>
-            <span class="span span2"></span>
-            <span class="span span3"></span>
-          </label>
-          <input type="checkbox" name="button-nav" id="button-nav" />
           <ul>
-            <li>Inicio</li>
-            <li>Nosotros</li>
-            <li>Contacto</li>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#plans">Planes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
           </ul>
         </nav>
       </section>
@@ -217,7 +222,7 @@
         </section>
       </section>
     </main>
-    <footer>
+    <footer id="contacto">
       <section class="left">
         <ul>
           <li><a href="#">Linkedin</a></li>

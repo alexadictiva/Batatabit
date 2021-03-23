@@ -1,3 +1,28 @@
+header {
+  align-items: center;
+}
+.menu {
+  width: 100vw;
+  padding-left: 0;
+}
+.button-menu {
+  display: none;
+}
+.nav-container {
+  display: block;
+}
+.nav-container ul {
+  width: 100%;
+  margin-top: 0;
+  border-radius: 0;
+  display: flex;
+  justify-content: space-evenly;
+  background: var(--bitcoin-orange);
+  box-shadow: 0 0 0;
+}
+.nav-container ul li a {
+  color: var(--just-white);
+}
 .table-container {
   justify-content: center;
 }

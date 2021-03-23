@@ -42,30 +42,64 @@ header {
 }
 .menu {
   padding-left: 10px;
+  position: absolute;
+  top: 0;
 }
 #button-nav {
   display: none;
 }
+.button-menu {
+  cursor: pointer;
+}
 .button-menu .span {
   display: block;
   width: 30px;
-  height: 5px;
+  height: 4px;
   border-radius: 50px;
   background: var(--just-white);
 }
 .span1 {
   margin-top: 20px;
 }
+
 .span2 {
   margin-top: 5px;
 }
 .span3 {
   margin-top: 5px;
 }
-.nav-container ul {
+
+.nav-container {
   display: none;
 }
-.button-nav:checked ~ .nav-container ul {
+.nav-container ul {
+  text-align: start;
+  padding: 10px;
+  list-style: none;
+  background: white;
+  margin-top: 5px;
+  width: 90vw;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px var(--warm-black);
+}
+.nav-container ul li {
+  line-height: 25px;
+  text-transform: uppercase;
+}
+.nav-container ul li a {
+  text-decoration: none;
+  width: 100%;
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: inline-block;
+  color: var(--warm-black);
+}
+.nav-container ul li:hover {
+  transition: 1s ease;
+  box-shadow: 760px 0px 0px var(--bitcoin-orange) inset;
+}
+
+.button-nav:checked ~ .nav-container {
   display: block;
 }
 header img {
