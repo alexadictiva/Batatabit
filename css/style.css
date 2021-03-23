@@ -40,7 +40,34 @@ header {
   text-align: center;
   background: linear-gradient(207.8deg, #201e1c 16.9%, #f7931a 100%);
 }
-
+.menu {
+  padding-left: 10px;
+}
+#button-nav {
+  display: none;
+}
+.button-menu .span {
+  display: block;
+  width: 30px;
+  height: 5px;
+  border-radius: 50px;
+  background: var(--just-white);
+}
+.span1 {
+  margin-top: 20px;
+}
+.span2 {
+  margin-top: 5px;
+}
+.span3 {
+  margin-top: 5px;
+}
+.nav-container ul {
+  display: none;
+}
+.button-nav:checked ~ .nav-container ul {
+  display: block;
+}
 header img {
   width: 150px;
   height: 24px;
